@@ -1,0 +1,18 @@
+********************************************************************************
+product = Open Liberty 23.0.0.5 (wlp-1.0.77.cl230520230514-1901)
+wlp.install.dir = /Users/Srihitha/Desktop/demo/target/liberty/wlp/
+java.home = /usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home
+java.version = 17.0.1
+java.runtime = OpenJDK Runtime Environment (17.0.1+1)
+os = Mac OS X (12.2; x86_64) (en_US)
+process = 79995@User1s-MBP.fios-router.home
+Classpath = /Users/Srihitha/Desktop/demo/target/liberty/wlp/bin/tools/ws-server.jar
+Java Library path = /Users/Srihitha/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+********************************************************************************
+[6/16/23, 13:29:03:223 EDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[6/16/23, 13:29:03:866 EDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 0.955 seconds
+[6/16/23, 13:29:03:866 EDT] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[6/16/23, 13:29:03:881 EDT] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            E CWWKF0001E: A feature definition could not be found for jsp-2.3
+[6/16/23, 13:29:03:902 EDT] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [].
+[6/16/23, 13:29:03:903 EDT] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 0.037 seconds.
+[6/16/23, 13:29:03:903 EDT] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The defaultServer server is ready to run a smarter planet. The defaultServer server started in 0.992 seconds.
