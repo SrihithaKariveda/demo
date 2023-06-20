@@ -1,9 +1,9 @@
-<server description="new server">
+<server description="Liberty server">
     <featureManager>
-        <feature>jsp-2.3</feature>
+        <feature>greeting</feature>
     </featureManager>
-    <httpEndpoint id="defaultHttpEndpoint"
-                  httpPort="9080"
-                  httpsPort="9443" />
-    <applicationManager autoExpand="true" />
+    <variable name="app.context.root" defaultValue="demo"/>
+    <webApplication location="demo-1.0-SNAPSHOT.war" contextRoot="/" />
+    <httpEndpoint host="*" httpPort="${default.http.port}" 
+      httpsPort="${default.https.port}" id="defaultHttpEndpoint" />
 </server>
